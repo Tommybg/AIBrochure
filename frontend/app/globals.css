@@ -7,6 +7,10 @@
   --lk-control-bar-height: unset;
 }
 
+body {
+  background: linear-gradient(to bottom right, #e6f2ff, #ffffff);
+}
+
 .agent-visualizer > .lk-audio-bar {
   width: 72px;
 }
