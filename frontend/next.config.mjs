@@ -1,11 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-      domains: [
-        'pbs.twimg.com',
-        'www.unisabana.edu.co'
-      ]
-    }
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: '**',
+            },
+        ],
+    },
 };
-  
-module.exports = nextConfig;
+
+export default nextConfig;
+
