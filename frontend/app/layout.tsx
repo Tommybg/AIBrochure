@@ -18,10 +18,11 @@ export default function RootLayout({
       <body className="h-full bg-white relative">
         <div className="absolute top-4 right-4 z-10">
           <Image 
-            src="https://www.unisabana.edu.co/fileadmin/Archivos_de_usuario/Imagenes/Imagenes_Gov_Lab/cabezote-govlab-dos-perfiles-azul.png" 
+            src="https://pbs.twimg.com/profile_images/1849229460077215744/LVO-7LYC_400x400.jpg" 
             alt="Logo" 
-            width={100} 
-            height={50} 
+            width={80} 
+            height={80} 
+            className="rounded-full"
             priority 
           />
         </div>
