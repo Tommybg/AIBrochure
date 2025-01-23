@@ -17,14 +17,13 @@ export default function RootLayout({
     <html lang="en" className={`h-full ${publicSans400.className}`}>
       <body className="h-full bg-white relative">
         <div className="absolute top-4 right-4 z-10">
-          <Image 
-            src="https://pbs.twimg.com/profile_images/1849229460077215744/LVO-7LYC_400x400.jpg" 
-            alt="Logo" 
-            width={80} 
-            height={80} 
-            className="rounded-full"
-            priority 
-          />
+        <Image 
+          src="/images/logo.png"
+          alt="Logo" 
+          width={100}
+          height={30}
+          priority
+        />
         </div>
         {children}
       </body>
